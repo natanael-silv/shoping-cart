@@ -1,0 +1,24 @@
+@layer components {
+  .nav {
+    @apply  bg-[#8257E6] grid grid-cols-1 justify-between p-2 sm:flex sm:items-center;
+  }
+  .nav__title {
+    @apply text-white;
+  }
+  .nav__inputWrapper {
+    @apply relative flex items-center col-span-2 ;
+  }
+  .nav__icon {
+    @apply absolute ml-8 ;
+  }
+  .nav__input {
+    @apply pl-24 pr-16 py-2
+     rounded bg-[#202024] text-white min-w-[100%] sm:min-w-[30vw];
+  }
+  .nav__link {
+    @apply hidden sm:block
+  }
+  .nav__cart {
+    @apply sm:order-4 h-10
+  }
+}
