@@ -1,0 +1,8 @@
+@layer components {
+  .header__Wrapper {
+    @apply flex flex-row justify-around w-screen py-14;
+  }
+  .header__title {
+    @apply text-white;
+  }
+}

@@ -1,12 +1,19 @@
-import {Home} from './pages/Home'
-import "./styles/main.css"
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { Navbar } from "./components/Navbar";
+import { Products } from "./components/Products";
+import "./styles/main.css";
 
 function App() {
   return (
-   <section className="">
-     <Home />
-   </section>
-  )
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/categorie/:categoriesName" element={<Products />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;
