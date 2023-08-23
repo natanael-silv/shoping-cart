@@ -1,4 +1,4 @@
-import eletronics from "../assets/images/electronics.png";
+import eletronics from "../assets/images/electronics_2.png";
 import books from "../assets/images/books.png";
 import girls from "../assets/images/girls.png";
 import kitchen from "../assets/images/kitchen.png";

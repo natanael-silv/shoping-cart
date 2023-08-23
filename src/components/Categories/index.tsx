@@ -1,10 +1,12 @@
 import React from "react";
 //import categories from "../../data/categories.json";
 import { useSelector } from "react-redux";
+import { RootState } from "../../store";
 import { useNavigate } from "react-router-dom";
 export const Categories = () => {
   const navigate = useNavigate();
-  const categories = useSelector((state) => state.categories);
+  const categories = useSelector((state: RootState) => state.categories);
+ 
   return (
     <section className="">
       <div className="mt-20 ml-20 mb-20">
@@ -16,7 +18,7 @@ export const Categories = () => {
         {categories.map((categorie, index) => (
           <div
             key={index}
-            className="hover:scale-110 ease-in duration-300 cursor-pointer"
+            className="hover:scale-105 ease-in duration-300 cursor-pointer"
             aria-label={`link to ${categorie.id}`}
             onClick={() => navigate(`/categorie/${categorie.id}`)}
           >
