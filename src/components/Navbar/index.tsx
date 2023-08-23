@@ -9,7 +9,7 @@ import storeItems from "../../data/products.json";
 
 import { MagnifyingGlass } from "phosphor-react";
 import logo from "../../styles/svg/ShoppingBag.svg";
-import cart from "../../styles/svg/Shoppingcart.svg";
+import cart from "../../styles/svg/ShoppingCart.svg";
 import close from "../../assets/images/close_btn.png";
 
 export const Navbar = () => {
