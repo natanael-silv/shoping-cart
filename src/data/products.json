@@ -2,7 +2,7 @@
   {
     "name": "Airpod",
     "id": 1,
-    "img": "../src/assets/images/airpods.png",
+    "img": "../../src/assets/images/airpods.png",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus sed turpis tincidunt id aliquet risus feugiat.",
     "price": "$129",
     "favorites": false,
@@ -11,7 +11,7 @@
   {
     "name": "Alexa",
     "id": 2,
-    "img": "../src/assets/images/alexa.png",
+    "img": "../../src/assets/images/alexa.png",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus sed turpis tincidunt id aliquet risus feugiat.",
     "price": "$50",
     "favorites": false,
@@ -20,7 +20,7 @@
   {
     "name": "iPad",
     "id": 3,
-    "img": "../src/assets/images/iPad.png",
+    "img": "../../src/assets/images/iPad.png",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus sed turpis tincidunt id aliquet risus feugiat.",
     "price": "$500",
     "favorites": false,

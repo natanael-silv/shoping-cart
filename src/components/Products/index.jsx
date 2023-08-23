@@ -16,7 +16,7 @@ export const Products = () => {
     ),
     filteredItems: state.filteredItems,
   }));
-//console.log(filteredItems);
+
   return (
     <div>
       <Hero title={categorie.name} image={categorie.img} />
