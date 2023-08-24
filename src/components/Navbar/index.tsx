@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "../../store";
 import { addFilteredItems } from "../../store/reducers/search";
@@ -23,17 +23,6 @@ export const Navbar = () => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
   };
-  /* const filterItems =
-    search.length > 0
-      ? storeItems.filter((item) =>
-          item.name.toLowerCase().includes(search.toLowerCase())
-        )
-      : [];
-
-  dispatch(addFilteredItems(filterItems));
-
-
- */
 
   useEffect(() => {
     const filterItems =
@@ -92,9 +81,9 @@ export const Navbar = () => {
           value={search}
         />
       </div>
-      <a href="/" className="nav__link text-white underline">
+      <Link to="/" className="nav__link text-white underline">
         Página inicial
-      </a>
+      </Link>
     </nav>
   );
 };

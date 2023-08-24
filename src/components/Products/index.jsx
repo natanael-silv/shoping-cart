@@ -7,14 +7,14 @@ import Card from "../Card";
 
 export const Products = () => {
   const { categoriesName } = useParams();
-  const { categorie, products, filteredItems } = useSelector((state) => ({
+  const { categorie, filteredItems } = useSelector((state) => ({
     categorie: state.categories.find(
       (categoria) => categoria.id === categoriesName
     ),
-    products: state.products.filter(
-      (products) => products.categorie === categoriesName
+
+    filteredItems: state.filteredItems.filter(
+      (item) => item.categorie === categoriesName
     ),
-    filteredItems: state.filteredItems,
   }));
 
   return (
