@@ -1,7 +1,7 @@
-import eletronics from "/src/assets/images/electronics_2.png";
-import books from "/src/assets/images/books.png";
-import girls from "/src/assets/images/girls.png";
-import kitchen from "/src/assets/images/kitchen.png";
+import eletronics from "/assets/images/electronics_2.png";
+import books from "/assets/images/books.png";
+import girls from "/assets/images/girls.png";
+import kitchen from "/assets/images/kitchen.png";
 
 export const categories = [
   {

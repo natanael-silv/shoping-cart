@@ -3,7 +3,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { removeFromCart } from "../../store/reducers/cart";
 
-import remove from "../../assets/images/close_btn2.png";
+import remove from "/assets/images/close_btn2.png";
 import storeItems from "../../data/products.json";
 
 type CartItemProps = {
