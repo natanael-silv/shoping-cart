@@ -19,7 +19,7 @@ export const Categories = () => {
       <div className="flex flex-wrap gap-10 text-center px-2 justify-center  text-white  ">
         {categories.map((categorie, index) => (
           <Link
-            to={`/categorie/${categorie.id}`}
+            to={`/${categorie.id}`}
             key={index}
             className="hover:scale-105 ease-in duration-300 cursor-pointer"
             aria-label={`link to ${categorie.id}`}

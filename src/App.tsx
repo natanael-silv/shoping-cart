@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/categorie/:categoriesName" element={<Products />} />
+        <Route path="/:categoriesName" element={<Products />} />
       </Routes>
     </>
   );
